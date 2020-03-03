@@ -1,0 +1,6 @@
+RewriteEngine on
+DirectoryIndex index.php
+RewriteRule ^page/([0-9]+)/?$ index.php?id=$1
+RewriteRule ^post/([0-9]+)/?$ post/index.php?id=$1
+RewriteRule ^temp/([0-9]+)/?$ temp/index.php?id=$1
+RewriteRule ^poczekalnia/([0-9]+)/?$ poczekalnia/index.php?id=$1
